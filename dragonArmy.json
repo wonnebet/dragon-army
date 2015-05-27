@@ -1,0 +1,324 @@
+{
+	"bases" : {
+		"Fooey" : {
+		"attackOrder" : 15,
+		"clanCastleConfiguration" : "cc_20_ag_wv",
+		"in" : true
+		},
+		"Gonzo" : {
+			"attackOrder" : 6,
+			"clanCastleConfiguration" : "cc_20_aa_13",
+			"in" : false
+		},
+		"Huey" : {
+			"attackOrder" : 1,
+			"clanCastleConfiguration" : "cc_30_aa_24",
+			"in" : true
+		},
+		"Jay" : {
+			"attackOrder" : 8,
+			"clanCastleConfiguration" : "cc_20_ag_ww",
+			"in" : true
+		},
+		"Josh" : {
+			"attackOrder" : 10,
+			"clanCastleConfiguration" : "cc_20_aa_13",
+			"in" : true
+		},
+		"KC" : {
+			"attackOrder" : 17,
+			"clanCastleConfiguration" : "cc_20_ag_vm",
+			"in" : true
+		},
+		"Kablooey" : {
+			"attackOrder" : 12,
+			"clanCastleConfiguration" : "cc_20_aa_12",
+			"in" : true
+		},
+		"LJ" : {
+			"attackOrder" : 16,
+			"clanCastleConfiguration" : "cc_20_ag_vv",
+			"in" : true
+		},
+		"Less" : {
+			"attackOrder" : 14,
+			"clanCastleConfiguration" : "cc_20_ag_ww",
+			"in" : true
+		},
+		"Liv" : {
+			"attackOrder" : 18,
+			"clanCastleConfiguration" : "cc_10",
+			"in" : true
+		},
+		"Pithleet" : {
+			"attackOrder" : 7,
+			"clanCastleConfiguration" : "cc_20_aa_13",
+			"in" : true
+		},
+		"Pithlit" : {
+			"attackOrder" : 2,
+			"clanCastleConfiguration" : "cc_30_aa_22",
+			"in" : true
+		},
+		"Pithlite" : {
+			"attackOrder" : 11,
+			"clanCastleConfiguration" : "cc_20_ag_vv",
+			"in" : false
+		},
+		"Red" : {
+			"attackOrder" : 9,
+			"clanCastleConfiguration" : "cc_20_aa_12",
+			"in" : true
+		},
+		"Sophia" : {
+			"attackOrder" : 5,
+			"clanCastleConfiguration" : "cc_25_aa_17",
+			"in" : true
+		},
+		"Stephen" : {
+			"attackOrder" : 4,
+			"clanCastleConfiguration" : "cc_25_aa_13",
+			"in" : true
+		},
+		"TROGDOR" : {
+			"attackOrder" : 3,
+			"clanCastleConfiguration" : "cc_25_ag_wv",
+			"in" : true
+		},
+		"Tumz" : {
+			"attackOrder" : 13,
+			"clanCastleConfiguration" : "cc_20_ag_vv",
+			"in" : true
+		}
+	},
+	"clanCastleConfigurations" : {
+		"cc_10" : {
+			"capacity" : 10,
+			"name" : "Anti-Ground",
+			"units" : [ {
+				"qty" : 1,
+				"type" : "valkyrie"
+			}, {
+				"qty" : 1,
+				"type" : "minion"
+			} ]
+		},
+		"cc_15_aa" : {
+			"capacity" : 15,
+			"name" : "Anti-Air",
+			"units" : [ {
+				"qty" : 1,
+				"type" : "minion"
+			}, {
+				"qty" : 1,
+				"type" : "wizard"
+			}, {
+				"qty" : 9,
+				"type" : "archer"
+			} ]
+		},
+		"cc_15_ag_v" : {
+			"capacity" : 15,
+			"name" : "Anti-Ground Valk",
+			"units" : [ {
+				"qty" : 1,
+				"type" : "valkyrie"
+			}, {
+				"qty" : 1,
+				"type" : "wizard"
+			}, {
+				"qty" : 3,
+				"type" : "archer"
+			} ]
+		},
+		"cc_15_ag_w" : {
+			"capacity" : 15,
+			"name" : "Anti-Ground Witch",
+			"units" : [ {
+				"qty" : 1,
+				"type" : "witch"
+			}, {
+				"qty" : 3,
+				"type" : "archer"
+			} ]
+		},
+		"cc_20_aa_12" : {
+			"capacity" : 20,
+			"name" : "Anti-Air 12 Units",
+			"units" : [ {
+				"qty" : 2,
+				"type" : "minion"
+			}, {
+				"qty" : 2,
+				"type" : "wizard"
+			}, {
+				"qty" : 8,
+				"type" : "archer"
+			} ]
+		},
+		"cc_20_aa_13" : {
+			"capacity" : 20,
+			"name" : "Anti-Air 13 Units",
+			"units" : [ {
+				"qty" : 1,
+				"type" : "minion"
+			}, {
+				"qty" : 2,
+				"type" : "wizard"
+			}, {
+				"qty" : 10,
+				"type" : "archer"
+			} ]
+		},
+		"cc_20_ag_vm" : {
+			"capacity" : 20,
+			"name" : "Anti-Ground Valk/Min",
+			"units" : [ {
+				"qty" : 1,
+				"type" : "valkyrie"
+			}, {
+				"qty" : 1,
+				"type" : "minion"
+			}, {
+				"qty" : 2,
+				"type" : "wizard"
+			}, {
+				"qty" : 2,
+				"type" : "archer"
+			} ]
+		},
+		"cc_20_ag_vv" : {
+			"capacity" : 20,
+			"name" : "Anti-Ground 2 Valk",
+			"units" : [ {
+				"qty" : 2,
+				"type" : "valkyrie"
+			}, {
+				"qty" : 1,
+				"type" : "wizard"
+			} ]
+		},
+		"cc_20_ag_wv" : {
+			"capacity" : 20,
+			"name" : "Anti-Ground Witch/Valk",
+			"units" : [ {
+				"qty" : 1,
+				"type" : "witch"
+			}, {
+				"qty" : 1,
+				"type" : "valkyrie"
+			} ]
+		},
+		"cc_20_ag_ww" : {
+			"capacity" : 20,
+			"name" : "Anti-Ground Witch/Wiz",
+			"units" : [ {
+				"qty" : 1,
+				"type" : "witch"
+			}, {
+				"qty" : 2,
+				"type" : "wizard"
+			} ]
+		},
+		"cc_25_aa_13" : {
+			"capacity" : 25,
+			"name" : "Anti-Air 13 Units",
+			"units" : [ {
+				"qty" : 3,
+				"type" : "minion"
+			}, {
+				"qty" : 3,
+				"type" : "wizard"
+			}, {
+				"qty" : 7,
+				"type" : "archer"
+			} ]
+		},
+		"cc_25_aa_17" : {
+			"capacity" : 25,
+			"name" : "Anti-Air 17 Units",
+			"units" : [ {
+				"qty" : 2,
+				"type" : "minion"
+			}, {
+				"qty" : 2,
+				"type" : "wizard"
+			}, {
+				"qty" : 13,
+				"type" : "archer"
+			} ]
+		},
+		"cc_25_ag_wv" : {
+			"capacity" : 25,
+			"name" : "Anti-Ground Witch/Valk",
+			"units" : [ {
+				"qty" : 1,
+				"type" : "witch"
+			}, {
+				"qty" : 1,
+				"type" : "valkyrie"
+			}, {
+				"qty" : 1,
+				"type" : "wizard"
+			}, {
+				"qty" : 1,
+				"type" : "archer"
+			} ]
+		},
+		"cc_30_aa_22" : {
+			"capacity" : 30,
+			"name" : "Anti-Air 22 Units",
+			"units" : [ {
+				"qty" : 2,
+				"type" : "minion"
+			}, {
+				"qty" : 2,
+				"type" : "wizard"
+			}, {
+				"qty" : 18,
+				"type" : "archer"
+			} ]
+		},
+		"cc_30_aa_24" : {
+			"capacity" : 30,
+			"name" : "Anti-Air 24 Units",
+			"units" : [ {
+				"qty" : 2,
+				"type" : "wizard"
+			}, {
+				"qty" : 22,
+				"type" : "archer"
+			} ]
+		}
+	},
+	"units" : {
+		"archer" : {
+			"size" : 1,
+			"time" : 25
+		},
+		"barbarian" : {
+			"size" : 1,
+			"time" : 20
+		},
+		"dragon" : {
+			"size" : 20,
+			"time" : 1800
+		},
+		"minion" : {
+			"size" : 2,
+			"time" : 45
+		},
+		"valkyrie" : {
+			"size" : 8,
+			"time" : 480
+		},
+		"witch" : {
+			"size" : 12,
+			"time" : 1200
+		},
+		"wizard" : {
+			"size" : 4,
+			"time" : 480
+		}
+	}
+}
